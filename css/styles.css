@@ -1,0 +1,284 @@
+body {
+  font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
+  color: #212121;
+  text-decoration: none;
+  background-color: #e5e5e5;
+}
+
+.menu-list {
+  list-style-type: none;
+}
+.menu-item {
+  text-decoration: none;
+  width: 53px;
+  height: 16px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.menu-item:hover {
+  width: 58px;
+  height: 16px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.menu-item:focus {
+  width: 58px;
+  height: 16px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}
+
+.email {
+  text-decoration: none;
+  width: 135px;
+  height: 16px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+
+  color: #757575;
+}
+
+.email:hover {
+  color: #2196f3;
+}
+.email:focus {
+  color: #2196f3;
+}
+
+.phone {
+  text-decoration: none;
+  width: 110px;
+  height: 16px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 1.14;
+
+  color: #757575;
+}
+
+.phone:hover {
+  color: #2196f3;
+}
+.phone:focus {
+  color: #2196f3;
+}
+.webstudio-link {
+  text-decoration: none;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+}
+
+.web-link{
+  color: #2196f3;
+}
+
+.studio-link {
+  color: #212121;
+  margin-left: -5px;
+}
+
+.studio-link-footer {
+  color: #ffffff;
+  margin-left: -5px;
+}
+
+.btn-group .button {
+  width: 93px;
+  height: 38px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  cursor: pointer;
+}
+.btn-group .button:hover {
+  width: 121px;
+  height: 38px;
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.btn-group .button:focus {
+  width: 121px;
+  height: 38px;
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.name {
+  width: 322px;
+  height: 36px;
+  left: 239px;
+  top: 576px;
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+}
+
+.describe {
+  width: 322px;
+  height: 30px;
+  left: 239px;
+  top: 616px;
+
+  font-size: 16px;
+  line-height: 1.875;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.footer {
+  background-color: #2f303a;
+}
+.address-text {
+  width: 247px;
+  height: 21px;
+
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+
+.head-text {
+  width: 696px;
+  height: 120px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.head-button {
+  width: 200px;
+  height: 50px;
+
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.head-button:hover {
+  width: 250px;
+  height: 75px;
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.head-button:focus {
+  width: 250px;
+  height: 75px;
+  background-color: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.advantages-header {
+  width: 270px;
+  height: 16px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-describe {
+  width: 270px;
+  height: 75px;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.services-header {
+  width: 452px;
+  height: 42px;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.services-list {
+  list-style-type: none;
+}
+
+.member {
+  width: 72px;
+  height: 19px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.function {
+  width: 147px;
+  height: 19px;
+
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
