@@ -14,11 +14,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #ececec;
 }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin: 0%;
 }
 
 .menu-list {
@@ -28,13 +30,13 @@ body {
   width: 254px;
   height: 16px;
   text-decoration: none;
+  margin: 0;
 }
 
 .menu-item {
-  
   display: block;
   text-decoration: none;
-  width: 58px;
+  width: 53px;
   height: 16px;
 
   font-weight: 500;
@@ -46,7 +48,6 @@ body {
 }
 
 .menu-item:hover {
-  
   width: 58px;
   height: 16px;
 
@@ -71,9 +72,13 @@ body {
 }
 
 .email {
+  display: flex;
+  justify-content: flex-end;
   text-decoration: none;
   width: 135px;
   height: 16px;
+  margin-right: 50px;
+  margin-left: 371px;
 
   font-weight: 500;
   font-size: 14px;
@@ -136,12 +141,12 @@ body {
 
 .studio-link {
   color: #212121;
-  margin-left: -5px;
+  margin-left: -1px;
 }
 
 .studio-link-footer {
   color: #ffffff;
-  margin-left: -5px;
+  margin-left: -1px;
 }
 
 .btn-group .button {
@@ -266,6 +271,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
 .advantages-describe {
@@ -277,6 +285,8 @@ body {
   letter-spacing: 0.03em;
 
   color: #757575;
+  margin-top: 10px;
+  margin-left: 30px;
 }
 
 .services-header {
@@ -291,6 +301,13 @@ body {
 }
 .services-list {
   list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service {
+  margin-right: 30px;
 }
 
 .member {
@@ -312,4 +329,18 @@ body {
   letter-spacing: 0.03em;
 
   color: #757575;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  padding: 0;
 }
