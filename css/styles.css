@@ -101,6 +101,7 @@ body {
   text-decoration: none;
   width: 110px;
   height: 16px;
+  margin-right: 15px;
 
   font-weight: 500;
   font-size: 14px;
@@ -120,12 +121,11 @@ body {
   display: flex;
   width: 145px;
   height: 31px;
-  top: 24px;
+  margin-left: 15px;
 
   text-decoration: none;
   width: 145px;
   height: 31px;
-  top: 24px;
 
   font-family: "Raleway";
   font-weight: bold;
@@ -321,7 +321,8 @@ body {
   text-transform: uppercase;
 
   margin-top: 50px;
-  margin-left: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .advantages-describe {
@@ -334,7 +335,8 @@ body {
 
   color: #757575;
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .services-header {
@@ -360,8 +362,8 @@ body {
 }
 
 .service {
-  margin-right: 30px;
-  margin-left: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
   padding: 0px;
 }
 
@@ -406,15 +408,13 @@ body {
 .columns {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-top: -30px;
   padding: 0;
 }
 
 .card {
-  margin-left: 30px;
+  margin-left: 15px;
   margin-top: 50px;
-  margin-right: 0px;
+  margin-right: 15px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
