@@ -243,6 +243,9 @@ body {
 }
 
 .head-text {
+  display: flex;
+  justify-content: center;
+  margin: auto;
   width: 696px;
   height: 120px;
 
@@ -258,6 +261,10 @@ body {
   background-color: #2f303a;
 }
 .head-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   width: 200px;
   height: 50px;
 
@@ -319,13 +326,16 @@ body {
 }
 
 .services-header {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 452px;
   height: 42px;
 
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .services-list {
@@ -346,9 +356,8 @@ body {
 .member {
   width: 72px;
   height: 19px;
-  
-
-
+  margin-bottom: 10px;
+  margin-top: 0px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -356,14 +365,18 @@ body {
 }
 
 .figcaption {
-  text-align:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0%;
 }
 
 .function {
   width: 147px;
   height: 19px;
-  text-align: center;
-  text-justify: center;
+  margin: 0%;
 
   font-size: 16px;
   line-height: 1.19;
@@ -396,9 +409,7 @@ body {
   border-radius: 0px 0px 4px 4px;
   display: inline-block;
   text-align: center;
-  }
-
-  
+}
 
 .footer-logo {
   display: flex;
