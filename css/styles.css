@@ -6,8 +6,8 @@ body {
 }
 .container {
   width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin: 0px auto;
+  padding: 0px;
 }
 
 .page-header {
@@ -149,12 +149,20 @@ body {
   margin-left: -1px;
 }
 
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+}
+
 .btn-group .button {
+  border: none;
   width: 93px;
   height: 38px;
   border-radius: 4px;
   background-color: #f5f4fa;
   cursor: pointer;
+  margin-left: 8px;
 }
 .btn-group .button:hover {
   width: 121px;
@@ -175,8 +183,7 @@ body {
 .name {
   width: 322px;
   height: 36px;
-  left: 239px;
-  top: 576px;
+  margin: 0px;
 
   font-weight: bold;
   font-size: 18px;
@@ -188,8 +195,7 @@ body {
 .describe {
   width: 322px;
   height: 30px;
-  left: 239px;
-  top: 616px;
+  margin-top: 4px;
 
   font-size: 16px;
   line-height: 1.875;
@@ -425,4 +431,23 @@ body {
   line-height: 1.19;
 
   letter-spacing: 0.03em;
+}
+
+.portfolio-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-card {
+  width: 370px;
+  height: 404px;
+  margin: 15px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.portfolio-figcaption {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 24px 20px 24px;
 }
