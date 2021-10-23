@@ -15,6 +15,7 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #ececec;
+  height: 80px;
 }
 
 .section {
@@ -30,7 +31,8 @@ body {
   width: 254px;
   height: 16px;
   text-decoration: none;
-  margin: 0;
+  padding: 0px;
+  margin-left: 93px;
 }
 
 .menu-item {
@@ -118,13 +120,11 @@ body {
   display: flex;
   width: 145px;
   height: 31px;
-  left: 215px;
   top: 24px;
 
   text-decoration: none;
   width: 145px;
   height: 31px;
-  left: 215px;
   top: 24px;
 
   font-family: "Raleway";
@@ -200,6 +200,35 @@ body {
 }
 .footer {
   background-color: #2f303a;
+  height: 252px;
+  padding: 60px;
+}
+.footer-email {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71em;
+  margin-top: 9px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71em;
+  margin-top: 9px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 .address-text {
   width: 247px;
@@ -304,15 +333,21 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 0px;
+  padding: 0px;
 }
 
 .service {
   margin-right: 30px;
+  margin-left: 0px;
+  padding: 0px;
 }
 
 .member {
   width: 72px;
   height: 19px;
+  
+
 
   font-weight: 500;
   font-size: 16px;
@@ -320,9 +355,15 @@ body {
   letter-spacing: 0.03em;
 }
 
+.figcaption {
+  text-align:center;
+}
+
 .function {
   width: 147px;
   height: 19px;
+  text-align: center;
+  text-justify: center;
 
   font-size: 16px;
   line-height: 1.19;
@@ -343,4 +384,34 @@ body {
   margin-left: -30px;
   margin-top: -30px;
   padding: 0;
+}
+
+.card {
+  margin-left: 30px;
+  margin-top: 50px;
+  margin-right: 0px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  display: inline-block;
+  text-align: center;
+  }
+
+  
+
+.footer-logo {
+  display: flex;
+  width: 145px;
+  height: 31px;
+  margin-bottom: 20px;
+
+  text-decoration: none;
+
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
 }
