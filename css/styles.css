@@ -56,7 +56,6 @@ body {
 
 .menu-item:focus {
   width: 58px;
-  
 
   color: #2196f3;
 }
@@ -139,6 +138,7 @@ body {
   display: flex;
   justify-content: center;
   margin-left: auto;
+  margin-bottom: 50px;
 }
 
 .btn-group .button {
@@ -151,16 +151,12 @@ body {
   margin-left: 8px;
 }
 .btn-group .button:hover {
-  width: 121px;
-  height: 38px;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 .btn-group .button:focus {
-  width: 121px;
-  height: 38px;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -234,8 +230,6 @@ body {
   color: #ffffff;
 }
 
-
-
 .head-text {
   display: flex;
   justify-content: center;
@@ -275,7 +269,6 @@ body {
 }
 
 .head-button:hover {
-  
   background-color: #98c6eb;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -283,7 +276,6 @@ body {
 }
 
 .head-button:focus {
-  
   background-color: #98c6eb;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -300,8 +292,7 @@ body {
   text-transform: uppercase;
 
   margin-top: 50px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0;
 }
 
 .advantages-describe {
@@ -313,9 +304,7 @@ body {
   letter-spacing: 0.03em;
 
   color: #757575;
-  margin-top: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin: 0;
 }
 
 .services-header {
@@ -341,8 +330,7 @@ body {
 }
 
 .service {
-  margin-right: 15px;
-  margin-left: 15px;
+  margin: 0;
   padding: 0px;
 }
 
@@ -388,12 +376,11 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
+  justify-content: space-between;
 }
 
 .card {
-  margin-left: 15px;
-  margin-top: 50px;
-  margin-right: 15px;
+  margin: 0;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -421,12 +408,13 @@ body {
 .portfolio-cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .portfolio-card {
   width: 370px;
   height: 404px;
-  margin: 15px;
+  margin: 0;
   background-color: #ffffff;
   border: 1px solid #eeeeee;
 }
