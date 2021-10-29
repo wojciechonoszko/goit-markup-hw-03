@@ -14,12 +14,25 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+.head-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #2f303a;
 }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.our-team {
+  background-color: #f5f4fa;
 }
 
 .menu {
@@ -103,14 +116,14 @@ body {
 .phone:focus {
   color: #2196f3;
 }
+
 .webstudio-link {
   display: flex;
+  justify-content: center;
   width: 145px;
   height: 31px;
 
   text-decoration: none;
-  width: 145px;
-  height: 31px;
 
   font-family: "Raleway";
   font-weight: bold;
@@ -245,7 +258,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #0f0e0e;
+  color: #ffffff;
 }
 .head-button {
   display: flex;
