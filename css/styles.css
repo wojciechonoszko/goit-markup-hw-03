@@ -31,8 +31,10 @@ body {
   padding-bottom: 94px;
 }
 
-.our-team {
+.section-our-team {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .menu {
@@ -422,12 +424,14 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: auto;
 }
 
 .portfolio-card {
   width: 370px;
   height: 404px;
-  margin: 0;
+  margin-left: 0px;
+  margin-right: 0px;
   background-color: #ffffff;
   border: 1px solid #eeeeee;
 }
