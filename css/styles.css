@@ -2,7 +2,6 @@ body {
   font-family: "Roboto", "Verdana", "Tahoma", sans-serif;
   color: #212121;
   text-decoration: none;
-  background-color: #e5e5e5;
 }
 .container {
   width: 1200px;
@@ -16,6 +15,7 @@ body {
   align-items: center;
   border-bottom: 1px solid #ffffff;
   background-color: #ffffff;
+  height: 80px;
 }
 
 .head-background {
